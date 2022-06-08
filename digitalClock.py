@@ -13,5 +13,5 @@ def clock():
     time = datetime.now().strftime("%H:%M:%S")
     label.configure(text=time)
     label.after(500, clock)
-clock
+clock()
 window.mainloop()
